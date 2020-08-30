@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information:  ,  , LIC=0VR9U-STK1T-SEBH0-BI19F-XDRAW-RKK2U
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.15.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      UL2CM3.DLL V1.155.8.0
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+C:\Users\ltest\Desktop\stm32-ms5611\Template.uvprojx
+Project File Date:  06/14/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Template'
+compiling main.c...
+USR\BT05.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\System\usart\usart2.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif
+USR\main.c(25): warning:  #177-D: variable "t" was declared but never referenced
+        u8 t;
+USR\main.c(26): warning:  #177-D: variable "key" was declared but never referenced
+        u8 key;
+USR\main.c(27): warning:  #177-D: variable "sendmask" was declared but never referenced
+        u8 sendmask=0;
+USR\main.c(28): warning:  #177-D: variable "sendcnt" was declared but never referenced
+        u8 sendcnt=0;
+USR\main.c(29): warning:  #177-D: variable "sendbuf" was declared but never referenced
+        u8 sendbuf[20];   
+USR\main.c(30): warning:  #177-D: variable "reclen" was declared but never referenced
+        u8 reclen=0;  
+USR\main.c: 8 warnings, 0 errors
+compiling ms5611.c...
+USR\ms5611.c(94): warning:  #177-D: variable "pressureTemp" was declared but never referenced
+                                                pressureTemp,
+USR\ms5611.c: 1 warning, 0 errors
+compiling BT05.c...
+USR\BT05.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\System\usart\usart2.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif
+USR\BT05.c(28): warning:  #223-D: function "USART2_Init" declared implicitly
+        USART2_Init(9600);      //??Ê¼»¯´®??2Îª:9600,²¨????.
+USR\BT05.c(30): warning:  #223-D: function "delay_ms" declared implicitly
+        delay_ms(500);
+USR\BT05.c(67): warning:  #223-D: function "delay_ms" declared implicitly
+                delay_ms(10);
+USR\BT05.c(100): warning:  #223-D: function "delay_ms" declared implicitly
+                delay_ms(10);
+USR\BT05.c(138): warning:  #1-D: last line of file ends without a newline
+  }     
+USR\BT05.c: 7 warnings, 0 errors
+compiling stm32f10x_it.c...
+compiling mydefine.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling misc.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_tim.c...
+compiling system_stm32f10x.c...
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling usart2.c...
+SYSTEM\usart\usart2.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif
+SYSTEM\usart\usart2.c(186): warning:  #1-D: last line of file ends without a newline
+  }        
+SYSTEM\usart\usart2.c: 2 warnings, 0 errors
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+linking...
+Program Size: Code=19464 RO-data=480 RW-data=72 ZI-data=1640  
+FromELF: creating hex file...
+".\OBJ\Template.axf" - 0 Error(s), 18 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\ltest\Desktop\stm32-ms5611\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
